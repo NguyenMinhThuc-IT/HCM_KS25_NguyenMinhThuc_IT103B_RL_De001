@@ -71,8 +71,9 @@ Vui lòng nhập lựa chọn của bạn (0-3): `);
                 break;
             }
             // check validate
+            let ticketCount = 0;
             while(true){
-                let ticketCount = 0;
+                
                 const rawTicketCount = prompt("Nhập số vé của bạn");
 
                 if ( rawTicketCount === null || rawTicketCount === ""){
@@ -91,8 +92,9 @@ Vui lòng nhập lựa chọn của bạn (0-3): `);
                 ticketCount = rawTicketCount;
                 break;
             };
+            let pricePerTicket = 0;
             while(true){
-                let pricePerTicket = 0;
+                
                 const rawpricePerTicket = prompt("Nhập giá trị của mỗi vé");
 
                 if ( rawpricePerTicket === null || rawpricePerTicket === ""){
