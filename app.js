@@ -120,6 +120,8 @@ Vui lòng nhập lựa chọn của bạn (0-3): `);
             
             let sumPrice = ticketCount * pricePerTicket ? ticketCount > 4 (sumPrice * 0.1): 0;
             alert(`Tổng tiền là ${sumPrice}`);
+            console.log(sumPrice);
+            
 
             break;
         case "3":
